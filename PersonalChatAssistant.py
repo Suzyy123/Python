@@ -1,4 +1,14 @@
-print("Hi, I am a bot created by suju!")
+import datetime
+import time
+name = input("Please enter your name: ")
+presentHour = datetime.datetime.now().hour
+if 5<= presentHour < 12:
+    print(f"Good Morning {name}!")
+elif 12 <= presentHour < 18:
+    print(f"Good Afternoon {name}!")
+else:
+    print(f"Good Evening {name}!")
+print(f"Hi {name}, I am a bot created by suju!")
 print("Ask me questions and say exit to end the convo")
 #giving memrory to the bot
 responses = {
