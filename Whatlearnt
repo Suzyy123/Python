@@ -1,0 +1,2 @@
+#print the name 10 times
+print("sujita "*10)
